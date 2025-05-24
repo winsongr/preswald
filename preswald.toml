@@ -1,0 +1,20 @@
+[project]
+title = "ElectraStats"
+version = "0.1.0"
+port = 8501
+slug = "electrastats"
+entrypoint = "main.py"
+
+[branding]
+name = "ElectraStats"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.electric_cars_dataset]
+type = "csv"
+path = "data/electric_cars_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
